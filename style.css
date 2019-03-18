@@ -1,0 +1,75 @@
+body {
+	font-family: 'Chakra Petch', sans-serif;
+	background: linear-gradient(45deg, #F64E58, #D7D361);
+	color: #333333;
+}
+
+main {
+	height: 100vh;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+	padding: 2em;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 0.8em;
+	margin: 0 0 24px;
+	padding: 0;
+}
+
+h1 span {
+	display: inline-block;
+}
+
+h1 small {
+	display: block;
+	font-size: 0.4em;
+	transition: font-size 0.2s ease-out;
+}
+
+h2 {
+	display: block;
+	font-size: 1em;
+	line-height: 1em;
+	margin: 0 0 36px;
+}
+
+p {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 370px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.btn {
+	text-decoration: none;
+	background: #333333;
+	padding: 12px 16px;
+	color: #F64E58;
+	display: block;
+	text-align: center;
+	margin: 1em auto 0;
+	transition: color 0.2s ease-out;
+	max-width: 200px;
+}
+
+.btn:hover {
+	color: #D7D361;
+}
+
+@media all and (min-width: 550px) {
+	h1 small {
+		font-size: 0.5em;
+	}
+	.btn {
+		display: inline-block;
+	}
+}
